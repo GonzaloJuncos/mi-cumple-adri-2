@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Invitación Cumpleaños Adriana</title>
+  <link rel="stylesheet" href="cumple.css" />
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🎂</text></svg>">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Montserrat:wght@400;700&family=Pacifico&family=Great+Vibes&display=swap" rel="stylesheet">
+</head>
+<body>
+  <!-- Fondos -->
+  <div class="stars"></div>
+  <div class="twinkling"></div>
+  
+  <!-- Pantalla inicial -->
+  <div class="initial-screen" id="initialScreen">
+    <div class="play-container">
+      <button id="playBtn">
+        <span class="play-icon">▶</span>
+      </button>
+      <div class="play-ring"></div>
+    </div>
+    <p class="daleplay">¡Dale play para comenzar la celebración!</p>
+  </div>
+  
+  <!-- Contenido principal -->
+  <div class="content" id="mainContent">
+    <div class="card">
+      <!-- Encabezado de la tarjeta -->
+      <div class="card-header">
+        <div class="top-text">Te invito a festejar mi cumple</div>
+        
+        <div class="name-age">
+          <div class="name">Adri</div>
+          <div class="age">50</div>
+        </div>
+        
+        <div class="bottom-text">Tu presencia es el mejor regalo</div>
+      </div>
+      
+      <!-- Sección de celebración -->
+      <div class="celebration-section">
+        <div class="celebration-title">
+          <span class="number">50</span>
+          <span class="text">AÑOS</span>
+          <span class="subtext">DE EXPERIENCIA</span>
+        </div>
+        
+        <div class="life-days">
+          <span class="dots">•••••••</span>
+          <span class="days">18,268 Días de VIDA</span>
+          <span class="dots">•••••••</span>
+        </div>
+        
+        <div class="highlight-box">
+          <div class="arrows">&raquo;</div>
+          <div class="center-text">1 MUJER INCREÍBLE</div>
+          <div class="arrows">&laquo;</div>
+        </div>
+        
+        <div class="achievements">
+          <div class="achievement">
+            <span class="number">3</span>
+            <span class="text">Hijos</span>
+            <span class="highlight">MARAVILLOSOS</span>
+          </div>
+        </div>
+        
+        <div class="friends-section">
+          <span class="friends">LOS MEJORES AMIGOS</span>
+        </div>
+        
+        <div class="blessed-life">
+          <span class="dots">••••</span>
+          <span class="blessed">UNA VIDA BENDECIDA</span>
+          <span class="dots">••••</span>
+        </div>
+        
+        <div class="best-to-come">
+          <span>¡LO MEJOR AUN ESTÁ POR LLEGAR!</span>
+        </div>
+        
+        <div class="invitation-text">
+          <p>Ven a Celebrar Conmigo</p>
+          <p>esta Maravillosa <span>ETAPA</span> de mi Vida</p>
+        </div>
+      </div>
+      
+      <!-- Detalles del evento -->
+      <div class="event-section">
+        <p class="fecha">19 de JULIO, 2025</p>
+        <div class="event-details">
+          Te espero el <span class="highlight">19.07.25</span> a las <span class="highlight">21:30hs</span>
+          <br>
+          en <span class="highlight location">Salón Las Estrellas - Av. Siempre Viva 123</span>
+        </div>
+        
+        <div class="countdown-container">
+          <div id="countdown"></div>
+          <div class="countdown-labels">
+            <span>DÍAS</span>
+            <span>HORAS</span>
+            <span>MIN</span>
+            <span>SEG</span>
+          </div>
+        </div>
+      </div>
+      
+      <!-- Información de pago -->
+      <div class="payment-info">
+        <div class="card-value">Valor de la tarjeta: $20.000</div>
+        <div class="payment-method">
+          Confirmar presencia con el pago mediante transferencia al alias
+          <br>
+          <span class="alias">pelu.lammas.mp</span> o efectivo.
+        </div>
+        <div class="confirmation">
+          Enviar comprobante al <span class="phone">381 582-6251</span>
+        </div>
+      </div>
+      
+      <!-- Botón de confirmación -->
+      <div class="rsvp">
+        <button id="confirmBtn">Confirmar Asistencia</button>
+      </div>
+    </div>
+  </div>
+
+  <script src="cumple.js"></script>
+</body>
+</html>
